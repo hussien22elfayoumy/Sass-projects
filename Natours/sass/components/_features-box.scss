@@ -1,0 +1,17 @@
+.featers-box {
+  background-color: rgba($color-white, 0.8);
+  font-size: 1.5rem;
+  padding: 2.4rem;
+  border-radius: 3px;
+  box-shadow: 0 1.4rem 4rem rgba($color-black, 0.15);
+
+  transition: all 0.3s;
+  &__icon {
+    color: $color-primary;
+    font-size: 6rem;
+    margin-bottom: 2rem;
+  }
+  &:hover {
+    transform: translateY(-2rem) scale(1.05);
+  }
+}

@@ -1,0 +1,30 @@
+.grid {
+  max-width: 114rem;
+  margin: 0 auto;
+  display: grid;
+  column-gap: $gutter-h;
+  row-gap: $gutter-v;
+}
+.grid-2-col {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-3-col {
+  grid-template-columns: repeat(3, 1fr);
+
+  .col-span-2 {
+    grid-column: span 2;
+  }
+}
+
+.grid-4-col {
+  grid-template-columns: repeat(4, 1fr);
+
+  .col-span-2 {
+    grid-column: span 2;
+  }
+
+  .col-span-3 {
+    grid-column: span 3;
+  }
+}
